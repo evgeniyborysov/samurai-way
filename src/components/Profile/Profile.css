@@ -1,0 +1,14 @@
+.bg {
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("https://www.onetwotrip.com/ru/blog/wp-content/uploads/2017/06/lavender.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    height: calc(100vh - 500px);
+
+}

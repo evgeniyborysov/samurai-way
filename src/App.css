@@ -1,33 +1,33 @@
 .app {
-    /* height: 100vh; */
-    display: grid;
-    gap: 10px;
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    grid-template-areas:
-        "header header"
-        "nav profile";
+	/* height: 100vh; */
+	display: grid;
+	gap: 10px;
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 2fr 10fr;
+	grid-template-areas:
+		"header header"
+		"nav profile";
 }
 
 .app img {
-    width: 50px;
+	width: 50px;
 }
 
 header {
-    grid-area: header;
-    background-color: cadetblue;
+	grid-area: header;
+	background-color: cadetblue;
 }
 
 nav {
-    /* height: calc(100vh - 70px); */
-    grid-area: nav;
-    background-color: darkgoldenrod;
+	/* height: calc(100vh - 70px); */
+	grid-area: nav;
+	background-color: darkgoldenrod;
 }
 
 .profile {
-    grid-area: profile;
+	grid-area: profile;
 }
 
-.app-wrapp-content {
-    grid-area: profile;
+.app-wrap-content {
+	grid-area: profile;
 }

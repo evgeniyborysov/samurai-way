@@ -1,9 +1,10 @@
 import style from "./Message.module.css";
 
 export type MessagePropsType = {
-    message: string;
+	id: number;
+	message: string;
 };
 
-export const Message = (props: MessagePropsType) => {
-    return <div className={style.message}>{props.message}</div>;
+export const Message: React.FC<MessagePropsType> = ({ id, message }) => {
+	return <div className={style.message}>{message}</div>;
 };
